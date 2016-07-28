@@ -28,7 +28,7 @@ git commit -m "init"
 git push heroku master
 ```
 
-If everything worked properly then you should be able to go to <your-app-title>.herokuapp.com and see Hello, World!
+If everything worked properly then you should be able to go to `https://<your-app-title>.herokuapp.com` and see Hello, World!
 
 For further development you will want to create a Python virtual environment and install the project requirements. 
 
@@ -40,7 +40,7 @@ Windows: `<virtual-env>\Scripts\activate.bat`
 
 `pip install -r requirements.txt`
 
-Afterwords add your <virtual-env> to the `.gitignore`.
+Afterwords add your virtual environment to the `.gitignore`.
 
 Anytime you add a new Python package be sure to install it from your virtual environment and update your `requirements.txt` with:
 
