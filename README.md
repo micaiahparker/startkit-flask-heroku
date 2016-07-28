@@ -41,7 +41,7 @@ Windows: `<virtual-env>\Scripts\activate.bat`
 
 `pip install -r requirements.txt`
 
-Afterwords add your virtual environment to the `.gitignore`.
+Afterwards add your virtual environment to the `.gitignore`.
 
 Anytime you add a new Python package be sure to install it from your virtual environment and update your `requirements.txt` with:
 
