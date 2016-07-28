@@ -36,6 +36,7 @@ For further development you will want to create a Python virtual environment and
 `python -m venv <virtual-env>`
 
 Linux/OSX: `bash <virtual-env>/scripts/activate.sh`
+
 Windows: `<virtual-env>\Scripts\activate.bat`
 
 `pip install -r requirements.txt`
@@ -48,8 +49,9 @@ Anytime you add a new Python package be sure to install it from your virtual env
 
 For local testing run:
 
-`heroku local` on Linux/OSX`
-`heroku local -f Procfile.windows` on Windows`
+Linux/OSX: `heroku local`
+
+Windows: `heroku local -f Procfile.windows`
 
 
 
